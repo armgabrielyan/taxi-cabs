@@ -33,3 +33,9 @@ Please, run the command above with `--help` argument to get further details abou
 API application provides a functionality to get features about taxi rides. Currently, it includes the following endpoints:
 
 - `GET /taxi_rides/taxi_id/<int:taxi_id>/ride_id/<int:ride_id>` - It can be used to fetch features about a certain taxi ride by providing `taxi_id` and `ride_id` parameters.
+
+To start the application, please run the following command from the project root directory: 
+
+```console
+PYTHONPATH=/Users/{your username}/{your projects directory}/taxi_cabs python api/api.py
+```
