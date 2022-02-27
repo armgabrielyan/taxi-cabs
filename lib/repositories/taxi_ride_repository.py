@@ -1,5 +1,4 @@
 from sqlalchemy import and_
-from lib.models.taxi_ride import TaxiRide
 from lib.db.connection import session
 
 

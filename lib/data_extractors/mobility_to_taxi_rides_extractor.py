@@ -27,7 +27,6 @@ class MobilityToTaxiRidesExtractor:
             self.__save()
 
     def __transform(self):
-        # taxi_data_file_names = os.listdir(self.data_path)
         taxi_data_file_paths = glob.glob(os.path.join(self.data_path, '*.txt'))
 
         total_taxi_rides = []
