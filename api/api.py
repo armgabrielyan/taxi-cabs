@@ -28,5 +28,5 @@ def get_taxi_ride(taxi_id, ride_id):
 
     return jsonify(taxi_ride)
 
-
-app.run()
+if __name__ == '__main__':
+    app.run()
